@@ -9,16 +9,24 @@
     "build": "parcel build src/index.html --public-url ./ --out-dir public --no-minify --no-source-maps",
     "view": "node postbuild.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vicfou-dev/application-test.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vicfou-dev/application-test/issues"
+  },
+  "homepage": "https://github.com/Vicfou-dev/application-test#readme",
   "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
     "dotenv": "^8.2.0",
     "parcel": "^1.12.4"
   }
